@@ -13,6 +13,8 @@
 N/A
 ## Usage
 WEBSITE LINK: https://darvinmarte.github.io/seo-code-refactor/
+![](./assets/images/Screenshot%202023-04-02%20at%207.26.16%20PM.png)
+![](./assets/images/Screenshot%202023-04-02%20at%207.27.02%20PM.png)
 
 ## Credits
 
