@@ -3,7 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+ 
+:root{
+    --darkbackground: #0072bb;
+    --light: #ffffff ;
+    --fontfam: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body {
     background-color: #d9dcd6;
 }
@@ -12,7 +17,7 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--light);
 }
 
 .header h1 {
@@ -28,7 +33,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--fontfam);
     font-size: 20px;
 }
 /* changed div to nav */
@@ -42,7 +47,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--light);
     text-decoration: none;
 }
 
@@ -82,14 +87,14 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--fontfam);
     background-color: #2589bd;
 }
 
 
 .benefit-category {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--light);
 }
 
 
@@ -109,27 +114,27 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-family: var(--fontfam);
+    background-color: var(--darkbackground);
+    color: var(--light);
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-family: var(--fontfam);
+    background-color: var(--darkbackground);
+    color: var(--light);
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    font-family: var(--fontfam);
+    background-color: var(--darkbackground);
+    color: var(--light);
 }
 
 .search-engine-optimization img {
