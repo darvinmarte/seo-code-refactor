@@ -1,0 +1,22 @@
+#  SEO Code Refactor 
+
+## Optimizing SEO of the website by adding HTML semantic elements in a logical structural manner. 
+
+- In order for the client to optimize the clients SEO's we restructured the HTML by changing all the div elements into semantic elements.
+- We added alt tags to the images to ensure better SEO results 
+- We added better structure to the HTML so future programmers understand the structure of the website.
+- We changed the headings to make sure they follow a consice order from largest to smallest.
+- Added a stronger title to improve SEO 
+
+## Installation
+
+N/A
+## Usage
+
+## Credits
+
+N/A
+
+## License
+
+Please refer to the LICENSE in the repo.
