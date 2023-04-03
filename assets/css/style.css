@@ -12,7 +12,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* Added variable shortcut */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -30,6 +30,7 @@ body {
   color: #d9dcd6;
 }
 /* changed div to nav */
+/* Added variable shortcut */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -46,7 +47,7 @@ body {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* Added variable shortcut */
 a {
   color: var(--light);
   text-decoration: none;
@@ -80,7 +81,7 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* Added variable shortcut */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -91,7 +92,7 @@ p {
   font-family: var(--fontfam);
   background-color: #2589bd;
 }
-
+/* Added variable shortcut */
 .benefit-category {
   margin-bottom: 32px;
   color: var(--light);
@@ -107,8 +108,9 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
-.search-engine-optimization {
+/* Added variable shortcut */
+/* Condensed class to one instead of 3 */
+.bodyleft {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -117,50 +119,16 @@ p {
   color: var(--light);
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: var(--fontfam);
-  background-color: var(--darkbackground);
-  color: var(--light);
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: var(--fontfam);
-  background-color: var(--darkbackground);
-  color: var(--light);
-}
-
-.search-engine-optimization img {
+.bodyleft img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
 
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.bodyleft h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
 
 .footer {
   padding: 30px;
